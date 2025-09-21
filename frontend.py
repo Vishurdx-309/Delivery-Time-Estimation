@@ -43,7 +43,7 @@ def apply_custom_theme():
 
 apply_custom_theme()
 
-BACKEND_URL = "https://delivery-time-estimation.onrender.com/predict"
+BACKEND_URL = ""https://vishurdx-delivery-time-estimation-api.hf.space/predict""
 
 st.title("InstaPredict 🥡")
 st.markdown("### Instant Delivery Time Predictions")
