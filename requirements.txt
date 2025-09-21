@@ -5,7 +5,8 @@ pydantic
 numpy
 scikit-learn
 pandas
-
+tensorflow
+keras
 # Libraries for Streamlit Frontend
 streamlit
 requests
