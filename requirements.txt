@@ -1,0 +1,11 @@
+# Libraries for FastAPI Backend
+fastapi
+uvicorn
+pydantic
+numpy
+scikit-learn
+pandas
+
+# Libraries for Streamlit Frontend
+streamlit
+requests
