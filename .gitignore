@@ -1,0 +1,10 @@
+# Python virtual environments
+.venv/
+fastapi/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+fastapi
+# Environment files
+.env
