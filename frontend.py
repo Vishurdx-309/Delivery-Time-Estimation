@@ -43,7 +43,7 @@ def apply_custom_theme():
 
 apply_custom_theme()
 
-BACKEND_URL = "http://127.0.0.1:8000/predict"
+BACKEND_URL = "https://delivery-time-estimation.onrender.com/predict"
 
 st.title("InstaPredict 🥡")
 st.markdown("### Instant Delivery Time Predictions")
