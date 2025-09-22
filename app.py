@@ -13,6 +13,13 @@ with open('delivery_time_model.pkl','rb') as f:
     
 app = FastAPI()
 
+@app.get('/')
+def home():
+    return {'message' : 'Delivery time estimation API '}
+
+@app.get('/health')
+def healthcheck():
+    return {'status' : 'OK'}
 
 # pydantic model build to validate the input data
 
